@@ -1,0 +1,27 @@
+.layout {
+    height: 100vh;
+}
+
+header {
+    background: #f4f4f5;
+    height: 70px;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+aside {
+    width: 150px;
+    background: gray;
+    height: 100%;
+}
+
+aside .active {
+    color: red;
+}
+
+article {
+    flex: 1;
+}
